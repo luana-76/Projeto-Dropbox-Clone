@@ -1,0 +1,758 @@
+@charset 'utf-8';
+
+@media screen and (min-width: 1030px){
+	
+	main #clock #texROne p {
+	    width: 270px;
+	}
+
+}
+@media screen and (max-width: 1030px){
+	
+	main #clock #texROne p {
+	    font-size: .8em;
+	}
+	
+}
+
+@media screen and (max-width: 1200px){
+	
+	#pin{
+	
+		width: 700px;
+
+	}
+
+	/* Para telas maiores que a do meu pc, ficar bom a parte de pesquisa */
+
+	#firstList #search input{
+
+		width: 65px !important;
+
+	}
+
+
+}
+
+@media screen and (max-width: 1065px){
+
+	/*Decoracão da lista */
+	ul#drop ul#firstList{
+
+		background-color: #ffffff5c;
+		display: none;
+		padding: 0;
+		position: absolute;
+
+	}
+
+	#firstList{/* Para a lista não ficar com rolagem em dispositivos menores */
+
+		margin-left: -30px;
+
+	}
+
+	ul#firstList a{
+
+		color: #fff;
+		margin: 10px 0px;
+
+	}
+	#firstList #search::before{/* Imagem de pesquisa */
+		line-height: 40px;
+
+	}
+	#drop li{
+
+		margin: 20px 20px;
+
+	}
+
+	ul#drop:hover ul#firstList, .firstMenu li{
+
+		/*cursor: pointer;*/
+		display: block;
+		/* margin-bottom: 12px; */
+
+	}
+
+	#firstList li.listSubImg{/* Alinhando as imagens da lista */
+
+		display: inline;
+		margin: 5px;
+
+	}
+
+	/*#firstList #search:hover input,
+	#firstList #search input:focus{
+
+		width: 80px !important;
+		position: absolute;
+		top: 89%;
+
+	}*/
+
+	#firstList #search{
+
+		height: 30px;
+		
+	}
+
+	#firstList #search input{
+
+		width: 75px !important;
+		position: absolute;
+		top: 89%;
+
+	}
+
+	/* Parte da introdução do header */
+
+	div#introdution p{
+
+		font-size: 1em;
+
+	}
+
+	/* Caixas de informações */
+
+	/*div#boxes > a{
+		
+		width: 17vw;
+
+	}*/
+
+	div#boxes > a{
+		
+		font-size: 70%;
+		width: 17vw;
+
+	}
+
+	main .allies ul li{
+		
+		display: inline;
+
+	}
+
+}
+
+
+@media screen and (max-width: 754px){
+
+	/* Imagem que denomina a lista */
+
+	#drop #listIcon{
+		
+		width: 80%;
+
+	}
+
+	/* Caixa da imagem principal */
+
+	div#img{
+
+		order: -1;
+
+	}
+
+}
+
+@media screen and (max-width: 564px){
+
+	header li{
+
+		font-size: .9em;
+
+	}
+
+}
+
+@media screen and (min-width: 1064px){
+	/* Imagem que denomina a lista */
+
+	#listIcon{
+
+		display: none;
+
+	}
+
+}
+
+/* Para dispositivos menores, a lista ir mais para esquerda */
+
+@media screen and (max-width: 412px){
+	
+	#firstList{
+		
+		margin-left: -70px;
+	}
+
+}
+
+@media screen and (max-width: 473px){
+	
+	#section button{
+		
+		font-size: 0.7em;
+
+	}
+
+}
+
+@media screen and (max-width: 409px){
+	
+	main #awesonText h2{
+		
+		font-size: 1.5em;
+
+	}
+
+}
+
+@media screen and (max-width: 411px){
+	
+	#section button{
+		
+		font-size: 0.6em;
+
+	}
+
+}
+
+
+@media screen and (max-width: 454px){/* Estilização do header */
+	
+	div#introdution .text{
+
+		width: 70%;
+
+	}
+
+	div#introdution .text a{
+		
+		padding: 5px;
+		font-size: 0.9em;
+
+	}
+	
+}
+ 
+
+@media screen and (max-width: 456px){
+
+	div#introdution h1{
+
+		font-size: clamp( 1.5em, 1em, 2em);
+
+	}
+
+}
+
+@media screen and (max-width: 474px){
+	
+	main #clock #imgR img {
+	    width: 72vw !important;
+	}
+
+}
+@media screen and (max-width: 409px){
+	
+	main #clock #imgR img {
+	    width: 80vw !important;
+	}
+
+}
+
+@media screen and (max-width: 372px){
+	
+	main #clock #imgR img {
+	    width: 100vw !important;
+	}
+
+}
+@media screen and (min-width: 526px){
+
+	.firstMenu li{
+
+		margin: 10px 10px;
+
+	}
+
+}
+
+/* Responsividade da imagem */
+
+@media screen and (max-width: 583px){
+
+	div#introdution img[alt='planta']{
+		
+		width: 130%;
+
+	}
+
+	main .boxTxt{
+		
+		font-size: 0.9em;
+		/*text-align: justify;*/
+	}
+
+	#section button{
+		
+		    font-size: 0.5em;
+
+	}
+
+}
+
+@media screen and (max-width: 503px){
+
+	div#introdution img[alt='planta']{
+		
+		width: 150%;
+
+	}
+	main .boxTxt h2{
+		
+		font-size: 1.3em;
+
+	}
+
+}
+
+@media screen and (max-width: 320px){
+
+	div#introdution img[alt='planta']{
+		
+		width: 130%;
+
+	}
+	
+}
+
+/* Para ipads*/
+
+@media screen and (max-width: 630px){
+	
+	main #clock #texROne p {
+	    font-size: .8em !important;
+	}
+
+	main #clock #texRTwo p{
+	
+		font-size: .9em;
+
+	}
+
+	main #clock #imgR img {
+    	width: 60vw;
+	}
+
+}
+
+@media screen and (max-width: 630px){
+	
+	main #clock {
+	
+		display: flex;
+		flex-direction: column;
+		flex-wrap: no-wrap;
+		align-items: center;
+		justify-content: center;	
+		background: linear-gradient(to bottom, #f1184a 50%, #fff 50%);
+
+	}
+
+	main #clock img, #imgR{
+		
+		width: 330px;
+		position: relative;
+		top: 20vh;
+
+	}
+
+
+}
+
+@media screen and (max-width: 374px){
+	
+	#texRTwo{
+		
+		margin-top: 300px !important;
+
+	}
+
+
+}
+
+@media screen and (max-width: 304px){
+	#drop #listIcon {
+	    width: 65%;
+	}
+	
+	div#introdution .text a{
+		
+		font-size: .7em;
+
+	}
+
+	div#introdution .text h1{
+		
+		font-size: 1.3em;
+
+
+	}
+	div#introdution .text p{
+		
+		font-size: .8em;
+
+	}
+
+}
+@media screen and (max-width: 586px){
+	
+	main #meio{
+		
+		flex-wrap: wrap;
+
+	}
+
+	main .tamBoxP{
+		
+		margin-bottom: 20px;
+
+	}
+
+}
+
+@media screen and (max-width: 630px){
+	
+	#texROne p, #texRTwo p{
+		
+		width: 40%;
+
+	}
+
+	#texROne{
+		
+		/*margin: 70px auto;*/
+		position: relative;
+		top: 80px;
+		font-size: 1.3em;
+
+	}
+
+	#texRTwo{
+		
+		padding-bottom: 30px;
+		margin-top: 100px;
+		font-size: 1.1em;
+
+	}
+
+}
+
+@media screen and (max-width: 630px) and (min-width: 375px){
+	
+	main #clock {
+	
+		display: flex;
+		flex-direction: column;
+		flex-wrap: no-wrap;
+		align-items: center;
+		justify-content: center;	
+		background: linear-gradient(to bottom, #f1184a 50%, #fff 50%);
+
+	}
+
+	main #clock img, #imgR{
+		
+		width: 330px;
+		position: relative;
+		top: 65px;
+
+	}
+
+}
+
+@media screen and (max-width: 665px){
+	
+	/*main #images ul{
+		
+		/*flex-wrap: wrap;
+		width: 50%;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+	}*/
+
+	#img img {
+    	width: 130%;
+	}
+
+	main #images #scroll img{
+		
+		width: 220px;
+		height: 230px;
+
+	}
+
+	main #images img[alt='estatua']{
+	
+		width: 220px;
+		height: 250px;
+
+	}
+
+}
+@media screen and (min-height: 658px){
+	
+	div#img{
+
+		order: -2;
+
+	}
+
+}
+
+@media screen and (max-width: 744px){
+	
+	/*main #clock #texROne p {
+	    font-size: 1.1em !important;
+	}*/
+
+}
+@media screen and (min-height: 765px) and (min-width: 768px){
+
+	nav#logo strong{
+		
+		font-size: 2em;
+
+	}
+
+	/* Texto principal */
+
+	div#introdution .text p{
+		
+		font-size: 1.3em;
+
+	}
+
+	div#introdution .text h1{
+		
+		font-size: 3.3em;
+
+	}
+
+	/* Imagem principal */
+
+	div#introdution img[alt='planta']{
+		
+		width: 150%;
+
+	}
+
+	/* Botões */
+
+	div#introdution .text a{
+		
+		padding: 10px;
+		font-size: 1.3em;
+
+	}
+
+	div#boxes{
+
+		position: relative;
+		bottom: -0.8%;
+
+	}
+	
+}
+
+@media screen and (max-width: 771px){
+	
+	div#boxes > a{
+		
+		width: 17vw;
+
+	}
+
+	div#boxes{
+
+		position: absolute;
+		/*top: 58%;*/
+		bottom: 100px;
+		left: .5%;
+
+	}
+
+	div#boxes, div#boxes > a{
+		
+		flex-direction: column;
+
+	}
+
+	div#boxes > a{
+		
+		font-size: 70%;
+		margin: 1px;
+
+	}
+
+}
+
+/* As caixas pequenas em celulares */
+
+@media screen and (max-width: 727px){
+
+	div#boxes{
+		
+		background-color: #d01e48;
+
+	}
+	div#boxes, div#boxes > a{
+
+		width: 30px;
+
+	}
+
+	div#boxes > a{
+
+		visibility: collapse;
+
+	}
+
+
+	div#boxes:hover, div#boxes:hover > a{
+		
+		width: 130px;
+	}
+
+	div#boxes:hover a{
+		
+		visibility: visible;
+		margin-top: 10px;
+
+	}
+
+}
+
+
+/* Parte dos aliados */
+
+@media screen and (max-width: 879px){
+
+	/* parte dos aliados  */
+	
+	main #allies h2{
+		
+		padding-bottom: 15px;
+
+	}
+
+	main #allies ul li{
+		
+		display: block;
+		margin: 0;
+
+	}
+
+	main .allBox #recentWork p{
+			
+			font-size: 0.9em;
+
+	}
+
+	main section button a {
+		
+		font-size: 0.8em;
+
+	}
+
+}
+
+
+@media screen and (max-width: 909px){
+	
+		main .allBox #section button{
+			
+			font-size: 0.9em;
+
+		}
+
+		/*main #clock #texROne p {
+		    font-size: 1.3em;
+		}*/
+
+}
+
+
+@media screen and (max-width: 830px){
+
+	.boxc{
+		
+		width: 310px;
+
+	}
+	
+}
+
+@media screen and (max-width: 851px){
+	
+	#pin{
+		
+		width: 78vw;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+	}
+
+}
+
+@media screen and (max-width: 383px){
+	
+	/* Caixas pequenas de informação */
+
+	.boxc{
+		
+		width: 240px;
+		height: 230px;
+
+	}
+
+	.txtPartTwo .boxc p {
+		
+		width: 200px;
+		font-size: .8em;
+
+	}
+	.txtPartTwo .boxc h3{
+		
+		font-size: .9em;
+
+	}
+
+	.boxc .int{/* Sub-caixa do boxc */
+		
+		width: 200px;
+
+	}
+
+}
+
+/* Para encaixar em dispositivos menores */
+
+@media screen and (max-width: 280px){
+	
+.boxc{
+		
+		width: 220px;
+
+	}
+
+}
